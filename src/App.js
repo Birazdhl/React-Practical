@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ChromePicker from './Components/7.)ColorPicker/Colorpicker'
-import CreaditCards from './Components/8.)Credit Cards/CreaditCards';
+import ReactPlayer from '../src/Components/11.)Video Player/VideoPlayer'
+
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
 
-            <CreaditCards />
+            <ReactPlayer />
 
 
     </div>
