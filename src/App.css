@@ -1,7 +1,19 @@
 .App {
   /* text-align: center; */
+  
+  /* -------------For Charts ------------------------ */
+  /* display: flex; */
+  /* justify-content: center; */
+
+  /* -------------------- For Loading Indicatores ----------------------- */
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart
+{
+  width: 720px;
 }
 
 .App-logo {

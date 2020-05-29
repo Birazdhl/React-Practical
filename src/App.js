@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ReactPlayer from '../src/Components/11.)Video Player/VideoPlayer'
+import LoadingIndicator from '../src/Components/12.)Loading Indicators/LoadingIndicator'
 
 
 function App() {
@@ -10,7 +10,11 @@ function App() {
   return (
     <div className="App">
 
-            <ReactPlayer />
+            <div className='chart'>
+             
+             <LoadingIndicator />
+
+            </div>
 
 
     </div>
